@@ -1,0 +1,18 @@
+{
+  "name": "ohmyform",
+  "description": "Opensource alternative to TypeForm",
+  "homepage": "https://github.com/ohmyform/ohmyform",
+  "license": "AGPL-3.0-or-later",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ohmyform/ohmyform.git"
+  },
+  "engines": {
+    "yarn": "1.x",
+    "node": "^12 || ^14"
+  },
+  "scripts": {
+    "heroku-prebuild": "scripts/heroku/prebuild.sh",
+    "heroku-postbuild": "scripts/heroku/postbuild.sh"
+  }
+}
